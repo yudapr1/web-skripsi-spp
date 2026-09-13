@@ -1,0 +1,309 @@
+/* ==========================================================================
+   TEMA BIRU & PUTIH FILAMENT BENDAHARA (IDENTIK DENGAN ELEMEN PORTAL SISWA)
+   ========================================================================== */
+
+/* 1. SIDEBAR NAVIGASI (Gradasi Biru Gelap Navy ke Indigo) */
+aside.fi-sidebar,
+.fi-sidebar,
+.fi-sidebar nav {
+    background: linear-gradient(180deg, #1e3a8a 0%, #1e40af 50%, #1e3a8a 100%) !important;
+    border-right: 1px solid rgba(59, 130, 246, 0.3) !important;
+    box-shadow: 4px 0 25px rgba(15, 23, 42, 0.15) !important;
+}
+
+.fi-sidebar-header {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+}
+
+.fi-sidebar-header .fi-logo,
+.fi-sidebar-header a,
+.fi-sidebar-header span {
+    color: #ffffff !important;
+    font-weight: 800 !important;
+}
+
+/* Sidebar Group Headers - Sangat Jelas Berwarna Biru Langit Cerah */
+.fi-sidebar-group-label,
+.fi-sidebar-group-label span,
+.fi-sidebar-group-label button {
+    color: #93c5fd !important;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    font-size: 0.75rem !important;
+    letter-spacing: 0.08em !important;
+    opacity: 1 !important;
+}
+
+.fi-sidebar-group-collapse-button {
+    color: #bfdbfe !important;
+}
+
+/* Inactive Sidebar Navigation Items - Teks Putih Terang Jelas */
+.fi-sidebar-item-button:not(.fi-sidebar-item-active .fi-sidebar-item-button),
+.fi-sidebar-item:not(.fi-sidebar-item-active) a {
+    color: #ffffff !important;
+    background-color: transparent !important;
+    font-weight: 700 !important;
+    font-size: 0.875rem !important;
+    border-radius: 0.75rem !important;
+    transition: all 0.2s ease !important;
+    margin: 2px 8px !important;
+    opacity: 1 !important;
+}
+
+.fi-sidebar-item-button:not(.fi-sidebar-item-active .fi-sidebar-item-button) span,
+.fi-sidebar-item:not(.fi-sidebar-item-active) a span {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+.fi-sidebar-item-button:hover {
+    background-color: rgba(255, 255, 255, 0.18) !important;
+    color: #ffffff !important;
+    transform: translateX(3px) !important;
+}
+
+.fi-sidebar-item:not(.fi-sidebar-item-active) .fi-sidebar-item-icon {
+    color: #93c5fd !important;
+    opacity: 1 !important;
+}
+
+/* Active Sidebar Item - Kapsul Putih dengan Teks Biru Royal Tua */
+.fi-sidebar-item-active .fi-sidebar-item-button,
+.fi-sidebar-item-active a {
+    background-color: #ffffff !important;
+    border-radius: 0.75rem !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
+    margin: 2px 8px !important;
+}
+
+.fi-sidebar-item-active .fi-sidebar-item-button span,
+.fi-sidebar-item-active a span,
+.fi-sidebar-item-active .fi-sidebar-item-label {
+    color: #1e40af !important;
+    font-weight: 900 !important;
+}
+
+.fi-sidebar-item-active .fi-sidebar-item-icon {
+    color: #2563eb !important;
+    opacity: 1 !important;
+}
+
+/* 2. TOPBAR / HEADER ATAS (Gradasi Biru Siswa) */
+.fi-topbar,
+header.fi-topbar {
+    background: linear-gradient(90deg, #1e3a8a 0%, #1e40af 50%, #312e81 100%) !important;
+    border-bottom: 1px solid rgba(59, 130, 246, 0.4) !important;
+    box-shadow: 0 4px 20px -4px rgba(15, 23, 42, 0.25) !important;
+}
+
+.fi-topbar nav {
+    background: transparent !important;
+}
+
+.fi-topbar-item-icon,
+.fi-topbar button,
+.fi-topbar a,
+.fi-topbar .fi-breadcrumbs-item-label,
+.fi-topbar .fi-breadcrumbs-item-separator,
+.fi-topbar svg {
+    color: #ffffff !important;
+    fill: currentColor !important;
+}
+
+.fi-topbar-item-active {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* User Avatar & Menu */
+.fi-user-avatar {
+    border: 2px solid #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* 3. MAIN BACKGROUND & CARDS (Latar Belakang Biru-Putih Sesuai Siswa) */
+.fi-main-ctn, 
+.fi-body, 
+body {
+    background-color: #f0f7ff !important;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+/* Judul Halaman Seluruh Panel (Besar, Tebal & Biru Gelap Royal) */
+.fi-header-heading,
+.fi-header-heading h1,
+.fi-header h1,
+h1.fi-header-heading {
+    color: #1e3a8a !important;
+    font-weight: 900 !important;
+    letter-spacing: -0.02em !important;
+    font-size: 1.6rem !important;
+}
+
+.fi-header-subheading {
+    color: #64748b !important;
+    font-size: 0.875rem !important;
+}
+
+/* 4. KARTU STATISTIK METRIK PERSIS TAMPILAN SISWA */
+.fi-wi-stats-overview-stat {
+    background-color: #ffffff !important;
+    border: 1.5px solid #dbeafe !important;
+    border-radius: 1.25rem !important;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.06) !important;
+    padding: 1.5rem !important;
+    position: relative !important;
+    overflow: hidden !important;
+    transition: all 0.25s ease !important;
+}
+
+.fi-wi-stats-overview-stat:hover {
+    transform: translateY(-3px) !important;
+    border-color: #60a5fa !important;
+    box-shadow: 0 12px 24px -4px rgba(37, 99, 235, 0.12) !important;
+}
+
+.fi-wi-stats-overview-stat-label {
+    color: #64748b !important;
+    font-weight: 800 !important;
+    font-size: 0.75rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.06em !important;
+}
+
+.fi-wi-stats-overview-stat-value {
+    color: #0f172a !important;
+    font-weight: 900 !important;
+    font-size: 1.85rem !important;
+    letter-spacing: -0.02em !important;
+    margin-top: 0.35rem !important;
+}
+
+/* 5. FORMULIR, SECTIONS & MASTER DATA (Persis Elemen Siswa) */
+.fi-section, 
+.fi-ta-ctn, 
+.fi-ta-content {
+    background-color: #ffffff !important;
+    border: 1.5px solid #dbeafe !important;
+    border-radius: 1.25rem !important;
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.06) !important;
+    margin-bottom: 1.5rem !important;
+}
+
+/* Header Kotak Formulir / Section Header (Biru Lembut dengan Garis Pembatas Halus) */
+.fi-section-header {
+    background-color: #f8fbff !important;
+    border-bottom: 1.5px solid #dbeafe !important;
+    padding: 1rem 1.5rem !important;
+    border-top-left-radius: 1.25rem !important;
+    border-top-right-radius: 1.25rem !important;
+}
+
+.fi-section-header-heading {
+    color: #1e3a8a !important;
+    font-weight: 800 !important;
+    font-size: 1rem !important;
+}
+
+.fi-section-header-description {
+    color: #64748b !important;
+    font-size: 0.8rem !important;
+}
+
+.fi-section-content {
+    padding: 1.5rem !important;
+}
+
+/* Form Labels (Teks Label Tebal Warna Abu Gelap Elegan) */
+.fi-fo-field-wrp-label label,
+.fi-fo-field-wrp-label span {
+    color: #1e293b !important;
+    font-weight: 700 !important;
+    font-size: 0.85rem !important;
+}
+
+/* Input Fields (Background Bersih, Border Slate/Blue Halus, Focus Biru Siswa) */
+.fi-input, 
+.fi-select-input,
+.fi-fo-textarea textarea,
+input[type="text"].fi-input,
+input[type="email"].fi-input,
+input[type="password"].fi-input,
+input[type="number"].fi-input,
+textarea.fi-input {
+    background-color: #ffffff !important;
+    border: 1.5px solid #cbd5e1 !important;
+    border-radius: 0.75rem !important;
+    color: #0f172a !important;
+    font-size: 0.875rem !important;
+    font-weight: 600 !important;
+    padding: 0.65rem 0.875rem !important;
+    transition: all 0.2s ease !important;
+}
+
+.fi-input:focus, 
+.fi-select-input:focus,
+.fi-fo-textarea textarea:focus,
+input.fi-input:focus {
+    border-color: #2563eb !important;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15) !important;
+    background-color: #ffffff !important;
+}
+
+/* Table Header */
+.fi-ta-header-cell {
+    background-color: #eff6ff !important;
+    color: #1e40af !important;
+    font-weight: 800 !important;
+    border-bottom: 2px solid #bfdbfe !important;
+    font-size: 0.75rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.06em !important;
+}
+
+.fi-ta-row:hover {
+    background-color: #f8fbff !important;
+}
+
+/* 6. TOMBOL-TOMBOL UTAMA & AKSI (Gradasi Biru Siswa) */
+.fi-btn-color-primary,
+.fi-btn-primary,
+button[type="submit"].fi-btn {
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35) !important;
+    border-radius: 0.75rem !important;
+    font-weight: 700 !important;
+    border: none !important;
+    padding: 0.6rem 1.25rem !important;
+    transition: all 0.2s ease !important;
+}
+
+.fi-btn-color-primary:hover,
+.fi-btn-primary:hover,
+button[type="submit"].fi-btn:hover {
+    background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%) !important;
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.45) !important;
+    transform: translateY(-1px) !important;
+}
+
+/* Badges */
+.fi-badge-color-primary {
+    background-color: #eff6ff !important;
+    color: #1d4ed8 !important;
+    border: 1px solid #bfdbfe !important;
+    font-weight: 700 !important;
+}
+
+/* Sembunyikan default container widget filament agar banner menyatu */
+.fi-account-widget .fi-section,
+.fi-account-widget .fi-section-content-ctn,
+.fi-account-widget > div {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
